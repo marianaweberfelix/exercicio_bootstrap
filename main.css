@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.col {
+    background-color: #f8f9fa;
+    display: block;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #198754;
+}
+
+input.form-control {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    height: 45px;
+    font-size: 1rem;
+}
+
+button.btn-success {
+    background-color: aquamarine;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-success:hover {
+    background-color: blue;
+}
